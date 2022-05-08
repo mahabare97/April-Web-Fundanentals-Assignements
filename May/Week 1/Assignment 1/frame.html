@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+   
+    <title>Main </title>
+    <style>
+        body{
+            text-align: center;
+            background-color: black;
+        }
+        a{
+            font-size: 32px;
+            font-weight: 700;
+            text-decoration: none;
+            color: cornsilk;
+        }
+        #container{
+            display: flex;
+        }
+        #menu{
+            width: 20%;
+        }
+        #iframe{
+            width: 80%;
+
+        }
+        .ad{
+           background: linear-gradient(black);
+            margin: 5%;
+            padding: 10%;
+        }
+        #logo{
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgb(221, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="menu">
+            <div ><img id="logo" src="https://i.pinimg.com/originals/c1/92/9d/c1929d3492c2f64ab65b43808c072043.jpg" height="200px" width="200px" ></div>
+            <div class="ad">
+                <a href="page1.html" target="rightpanel">Mobile</a>
+            </div>
+            <div class="ad">
+                <a href="page2.html" target="rightpanel">TV</a>
+            </div >
+            <div class="ad">
+                <a href="page3.html" target="rightpanel">Laptop</a>
+            </div>
+            <div class="ad">
+                <a href="page4.html" target="rightpanel">Fashion Men</a>
+            </div>
+        </div>
+        <div id="iframe">
+            <iframe name="rightpanel" src="page1.html" width="100%" height="1200px"></iframe>
+        </div>
+    </div>
+
+</body>
+
+</html>
