@@ -1,0 +1,158 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css" rel="stylesheet" />
+    <style>
+        .img-fluid {
+            height: 100%;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="h-100 bg-dark">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col">
+                    <div class="card card-registration my-4">
+                        <div class="row g-0">
+                            <div class="col-xl-6 d-none d-xl-block">
+                                <img src="data:image/jpeg;base64,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"
+                                    alt="Sample photo" class="img-fluid" />
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="card-body p-md-5 text-black">
+                                    <h3 class="mb-5 text-uppercase">Student registration form</h3>
+
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4">
+                                            <div class="form-outline">
+                                                <input type="text" id="form3Example1m"
+                                                    class="form-control form-control-lg" />
+                                                <label class="form-label" for="form3Example1m">First name</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+                                            <div class="form-outline">
+                                                <input type="text" id="form3Example1n"
+                                                    class="form-control form-control-lg" />
+                                                <label class="form-label" for="form3Example1n">Last name</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4">
+                                            <div class="form-outline">
+                                                <input type="text" id="form3Example1m1"
+                                                    class="form-control form-control-lg" />
+                                                <label class="form-label" for="form3Example1m1">Mother's name</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+                                            <div class="form-outline">
+                                                <input type="text" id="form3Example1n1"
+                                                    class="form-control form-control-lg" />
+                                                <label class="form-label" for="form3Example1n1">Father's name</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="text" id="form3Example8" class="form-control form-control-lg" />
+                                        <label class="form-label" for="form3Example8">Address</label>
+                                    </div>
+
+                                    <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">
+
+                                        <h6 class="mb-0 me-4">Gender: </h6>
+
+                                        <div class="form-check form-check-inline mb-0 me-4">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                id="femaleGender" value="option1" />
+                                            <label class="form-check-label" for="femaleGender">Female</label>
+                                        </div>
+
+                                        <div class="form-check form-check-inline mb-0 me-4">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                id="maleGender" value="option2" />
+                                            <label class="form-check-label" for="maleGender">Male</label>
+                                        </div>
+
+                                        <div class="form-check form-check-inline mb-0">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                id="otherGender" value="option3" />
+                                            <label class="form-check-label" for="otherGender">Other</label>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4">
+
+                                            <select class="select">
+                                                <option value="1">State</option>
+                                                <option value="2">Option 1</option>
+                                                <option value="3">Option 2</option>
+                                                <option value="4">Option 3</option>
+                                            </select>
+
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+
+                                            <select class="select">
+                                                <option value="1">City</option>
+                                                <option value="2">Option 1</option>
+                                                <option value="3">Option 2</option>
+                                                <option value="4">Option 3</option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="text" id="form3Example9" class="form-control form-control-lg" />
+                                        <label class="form-label" for="form3Example9">DOB</label>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="text" id="form3Example90" class="form-control form-control-lg" />
+                                        <label class="form-label" for="form3Example90">Pincode</label>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="text" id="form3Example99" class="form-control form-control-lg" />
+                                        <label class="form-label" for="form3Example99">Course</label>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="text" id="form3Example97" class="form-control form-control-lg" />
+                                        <label class="form-label" for="form3Example97">Email ID</label>
+                                    </div>
+
+                                    <div class="d-flex justify-content-end pt-3">
+                                        <button type="button" class="btn btn-light btn-lg">Reset all</button>
+                                        <button type="button" class="btn btn-warning btn-lg ms-2">Submit form</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"></script>
+</body>
+
+</html>
